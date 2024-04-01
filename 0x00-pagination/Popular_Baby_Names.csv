@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AuthorizationQueryParametersError</Code><Message>X-Amz-Algorithm only supports "AWS4-HMAC-SHA256 and AWS4-ECDSA-P256-SHA256"</Message><RequestId>0Y3ZZMP6E7B5M2P7</RequestId><HostId>mVQCRw6KZCPISkq1C4BLsYzY+LpBu8SKV8LyN6FMkovTIGPObrMg8M5zeVERMujAzeUuKhExvr8=</HostId></Error>
