@@ -8,6 +8,9 @@ class BasicCache(BaseCaching):
     """Implement basic cache"""
 
     def put(self, key, value):
+        """
+        Adds an item to the cache
+        """
         if key is None or value is None:
             pass
         else:
