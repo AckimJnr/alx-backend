@@ -65,7 +65,7 @@ class FIFOCache(BaseCaching):
         Retrieve an item from cache
         Args:
             key: key to retrieve item from the cache
-        Return:
+        Return:LIFOCache
             None if key is none or key is not available
         """
         if key is None or key not in self.cache_data:
