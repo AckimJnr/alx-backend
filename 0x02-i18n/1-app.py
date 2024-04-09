@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """2nd app module"""
-from flask import request
+from flask import Flask, render_template
 from flask_babel import Babel
 
 
@@ -10,7 +10,7 @@ class Config:
     """
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
-    BABEL_DEFAUL_TIMEZONE = "UTC"
+    BABEL_DEFAULT_TIMEZONE = "UTC"
 
 
 app = Flask(__name__)
